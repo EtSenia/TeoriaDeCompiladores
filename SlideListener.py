@@ -89,12 +89,30 @@ class SlideListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by SlideParser#bg.
+    def enterBg(self, ctx:SlideParser.BgContext):
+        pass
+
+    # Exit a parse tree produced by SlideParser#bg.
+    def exitBg(self, ctx:SlideParser.BgContext):
+        pass
+
+
     # Enter a parse tree produced by SlideParser#position.
     def enterPosition(self, ctx:SlideParser.PositionContext):
         pass
 
     # Exit a parse tree produced by SlideParser#position.
     def exitPosition(self, ctx:SlideParser.PositionContext):
+        pass
+
+
+    # Enter a parse tree produced by SlideParser#rotation.
+    def enterRotation(self, ctx:SlideParser.RotationContext):
+        pass
+
+    # Exit a parse tree produced by SlideParser#rotation.
+    def exitRotation(self, ctx:SlideParser.RotationContext):
         pass
 
 
